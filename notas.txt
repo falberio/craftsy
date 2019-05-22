@@ -1,0 +1,1 @@
+Borrar los "id" de cada elemento del formulario del login.html si no son necesarios

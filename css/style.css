@@ -1,0 +1,268 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+body{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1140px;
+	margin: auto;
+	background-image: url(../img/bg-2.png);
+}
+
+header{
+	background-color: #f8500f;
+	overflow: hidden;
+	height: 50px;
+}
+
+header ul li{
+	display: inline;
+	margin-right: 20px;
+}
+
+header ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+header .logo{
+	float: left;
+	height: 50px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+header .menu{
+	float: left;
+}
+
+header .registro{
+	float: right;
+}
+
+
+
+
+#home main{
+	margin-top: 20px;
+	overflow: hidden;
+	width: 1140px;
+}
+
+#contenido-principal{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+	background-color: white;
+}
+
+#contenido-principal article{
+	width: 48%;
+	margin: 1%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#contenido-principal article img{
+	width: 100%;
+}
+
+#contenido-principal article p{
+	margin-bottom: 20px;
+}
+
+#contenido-principal article a{
+	color: #fff;
+	background-color: #f8500f; 
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+aside{
+	float: right;
+	width: 320px;
+}
+
+aside .tutoriales .titulo{
+	background-color: #fff;
+	padding: 5px;
+}
+
+aside .tutoriales .titulo h2{
+	margin: 0;
+}
+
+aside .tutoriales .contenido{
+	margin-top: 10px;
+}
+
+aside .tutoriales article{
+	background-color: #fff;
+	overflow: hidden;
+	margin-top: 2px;
+}
+
+aside .tutoriales article .imagen{
+	float: left;
+	padding: 5px;
+}
+
+aside .tutoriales article .texto{
+	float: left;
+	width: 120px;
+}
+
+
+aside .publicidades{
+	margin-top: 40px;
+}
+
+aside .publicidades .titulo{
+	background-color: #fff;
+	padding: 5px;
+}
+
+aside .publicidades .titulo h2{
+	margin: 0;
+}
+
+aside .publicidades .contenido{
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+aside .publicidades .contenido .publicidad{
+	padding: 5px;
+}
+
+aside .publicidades .contenido .publicidad img{
+	width: 100%;
+}
+
+
+
+#login form{
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#login form h1{
+	text-align: center;
+	font-size: 25px;
+}
+
+#login form p{
+	font-size: 18px;
+	margin: 0;
+}
+
+#login form input[type="email"], #login form input[type="password"]{
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#login form p:nth-child(6){
+	float: right;
+	margin-bottom: 20px;
+}
+
+#login form #validacion{
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	color: red;
+	font-weight: 500;
+}
+
+#login form input[type="submit"]{
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 40px;
+	background-color: #3d80d8;
+	border-radius: 10px;
+	border: 0;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+#registro form{
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#registro form h1{
+	text-align: center;
+	font-size: 25px;
+}
+
+#registro input[type="text"], #registro input[type="email"], #registro input[type="password"]{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+#registro .obligatorio{
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	color: red;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+
+#registro .negritas{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+#registro form p:nth-child(3), #registro form p:nth-child(6), #registro form p:nth-child(9){
+	margin: 0;
+}
+
+#registro form p:nth-child(2), #registro form p:nth-child(5), #registro form p:nth-child(8){
+	margin: 0;
+}
+
+#registro form p:nth-child(12){
+	margin-bottom: 5px;
+}
+
+#registro button{
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 40px;
+	background-color: #3d80d8;
+	border-radius: 10px;
+	border: 0;
+	margin-top: 15px;
+	font-weight: bold;
+}
+

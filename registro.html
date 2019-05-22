@@ -1,0 +1,76 @@
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Craftsy - Login</title>
+</head>
+
+<body id="registro">
+
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt=""></a>
+		</div>
+
+		<nav class="menu">
+			<ul>
+				<li><a href="#">SMARTPHONES</a></li>
+				<li><a href="#">TABLETS</a></li>
+				<li><a href="#">COMPUTADORAS</a></li>
+			</ul>
+		</nav>
+
+		<div class="registro">
+			<ul>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="registro.html">REGISTRO</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<form action="">
+		<h1>REGISTRATE</h1>
+		<p><label for="name">Nombre</label></p>
+		<p><input type="text" name="name" placeholder="Ingresá tu nombre"></p>
+		<p class="obligatorio">Obligatorio.</p>
+
+		<p><label for="email">Email</label></p>
+		<p><input type="text" name="email" placeholder="Ingresá tu email"></p>
+		<p class="obligatorio">Obligatorio.</p>
+
+		<p><label for="pass">Contraseña</label></p>
+		<p><input type="text" name="pass" placeholder="password"></p>
+		<p class="obligatorio">Obligatorio.</p>
+
+		<p class="negritas"><label for="pais">País de nacimiento</label></p>
+		<p><select name="pais">
+			<option value="ch">Chile</option>
+			<option value="ar">Argentina</option>
+			<option value="co">Colombia</option>
+			<option value="br">Brasil</option>
+			<option value="ve">Venezuela</option>
+		</select></p>
+		<p class="obligatorio">Obligatorio.</p>
+
+		<p class="negritas"><label for="genero">Género</label></p>
+		<p><input type="radio" name="genero" value="Femenino">Femenino
+		<input type="radio" name="genero" value="Masculino">Masculino
+		<input type="radio" name="genero" value="Otro">Otro</p>
+
+		<p class="negritas"><label for="hobbies">Hobbies</label></p>
+		<p><input type="checkbox" name="hobbies" value="Guitarra">Guitarra
+		<input type="checkbox" name="hobbies" value="Fútbol">Fútbol
+		<input type="checkbox" name="hobbies" value="Tenis">Tenis
+		<input type="checkbox" name="hobbies" value="Programación">Programación</p>
+
+		<p class="negritas">Dejános tus comentarios</p>
+		<p><label for="comentarios"></label></p>
+		<textarea name="comentarios" cols="30" rows="10"></textarea>
+
+		<p class="terminos"><input type="radio">Acepto los términos y condiciones</p>
+		<button type="submit">Registrarme</button>
+		<button type="reset">Cancelar</button>
+	</form>
+
+</body>
+</html>

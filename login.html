@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Craftsy - Login</title>
+</head>
+
+<body id="login">
+
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt=""></a>
+		</div>
+
+		<nav class="menu">
+			<ul>
+				<li><a href="#">SMARTPHONES</a></li>
+				<li><a href="#">TABLETS</a></li>
+				<li><a href="#">COMPUTADORAS</a></li>
+			</ul>
+		</nav>
+
+		<div class="registro">
+			<ul>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="registro.html">REGISTRO</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<form action="login.html" method="post">
+		<h1>BIENVENIDO</h1>
+		<p><label for="email">Email</label></p>
+		<p><input type="email" name="email" id="email" placeholder="Email"></p>
+		<p><label for="pass">Contraseña</label></p>
+		<p><input type="password" name="pass" id="pass" placeholder="password"></p>
+		<p><input type="radio" name="remember" id="remember">Recordarme</p>
+		<p id="validacion">La combinación ingresada de email y contraseña no es válida</p>
+		<p><input type="submit" name="submit" id="submit" value="Ingresar"></p>
+	</form>
+
+</body>
+</html>
