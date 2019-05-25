@@ -16,6 +16,9 @@ header{
 	background-color: #f8500f;
 	overflow: hidden;
 	height: 50px;
+	position: fixed;
+	width: 1140px;
+    margin: auto;
 }
 
 header ul li{
@@ -28,6 +31,10 @@ header ul li a{
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
+}
+
+header ul li a:hover{
+	border-bottom: 1px solid #fff;
 }
 
 header .logo{
@@ -49,7 +56,7 @@ header .registro{
 
 
 #home main{
-	margin-top: 20px;
+	margin-top: 80px;
 	overflow: hidden;
 	width: 1140px;
 }
@@ -84,7 +91,9 @@ header .registro{
 	font-weight: bold;
 }
 
-
+#contenido-principal article a:hover{
+	background-color: #da7353;
+}
 
 
 
